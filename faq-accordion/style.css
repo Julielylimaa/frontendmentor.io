@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+}
+
+:root{
+    --bg-color: hsl(0, 0%, 100%);
+    --font-color:  hsl(292, 42%, 14%);
+    --p-color: hsl(292, 16%, 49%);
+    --bg-section-color: hsl(275, 100%, 97%);
+}
+
+section h2{
+    color: var(--font-color);
+}
+body{
+    background-color: var(--bg-section-color) ;
+}
+section{
+    position: absolute;
+    background: url('./assets/images/background-pattern-desktop.svg') no-repeat;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.container{
+    margin: 9.5rem auto;
+    width: 595px;
+    max-height: 1000px;
+    background: var(--bg-color);
+    border-radius: 20px;
+    box-shadow: 10px 2px 10px rgba(0, 0, 0, 0.235);}
+
+.icon-faqs{
+    display: flex;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    
+}
+
+
+.container h1{
+    position: relative;
+    padding-top: 3rem;
+    padding-left:2rem ;
+    font-size: 50px;
+    top: -99px;
+    left: -145px;
+    color: var(--font-color);
+}
+
+.question-answer{
+    position: relative;
+    text-align: left;
+    padding-left: 3rem;
+    top: -60px;
+    margin: 1rem auto;
+}
+
+.container h2{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 3rem;
+}
+
+.container p{
+    font-size: 14px;
+    color: var(--p-color);
+    font-weight: 400;
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+}
+hr{
+    width: 510px;
+    margin-top: 2rem;
+    border-color:rgba(216, 216, 216, 0.191);
+}
+button{
+    float: right;
+    padding-right: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+
