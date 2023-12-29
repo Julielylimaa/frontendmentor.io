@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+:root {
+    --dark-grey-color: hsl(234, 29%, 20%);
+    --charcoal-grey-color: hsl(235, 18%, 26%);
+    --grey-color: hsl(231, 7%, 60%);
+    --white-color: hsl(0, 0%, 100%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--dark-grey-color);
+}
+
+.container-value {
+    display: flex;
+    justify-content: center;
+    background-color: var(--white-color);
+    padding: 1.5rem 1rem;
+    border-radius: 2rem;
+    max-width: 850px;
+}
+
+.text-section {
+    text-align: left;
+    max-width: 450px;
+    margin: 0 2.5rem;
+}
+
+h1 {
+    font-size: 45px;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.list {
+    padding: 2rem 0;
+}
+
+.list img {
+    float: left;
+    padding-right: 1rem;
+}
+
+.list div {
+    padding: .4rem 0;
+}
+
+.input-label {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#email,
+#subscribe-btn {
+    border-radius: 7px;
+    padding: 1rem 0;
+}
+
+#email {
+    width: 352px;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--grey-color);
+    padding-left: 1rem;
+}
+
+
+#subscribe-btn {
+    width: 370px;
+    background-color: var(--dark-grey-color);
+    color: var(--white-color);
+    font-size: 16px;
+    border: 1px solid transparent;
+}
+
+button:hover,
+input:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(90deg, hsl(0, 100%, 64%) 0%, hsl(4, 98%, 62%), hsl(13, 94%, 63%) 100%);
+    box-shadow: 0rem .6rem 2rem hsla(0, 100%, 64%, 0.495);
+}
+
+.invalid-text{
+    float: right;
+    color: hsl(4, 100%, 67%);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.invalid-input{
+    background-color: hsla(4, 100%, 67%, 0.239);
+    border: 1px solid hsl(4, 100%, 67%) !important; 
+}
+
+
+.confirmation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--dark-grey-color);
+}
+
+.confirmation-box{
+    height: 520px;
+    max-width: 507px;
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    box-shadow: 0rem .6rem 2rem hsla(0, 0%, 0%, 0.495);
+    background: white;
+}
+.confirmation-box > *{
+    margin: 0 4rem;
+}
+.confirmation-box > img{
+    margin-top: 3rem;
+    margin-bottom: -2rem;
+}
+#dismiss-btn{
+    margin-top: 2rem;
+    width: 370px;
+    height: 3rem;
+    background-color: var(--dark-grey-color);
+    color: var(--white-color);
+    font-size: 16px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+.confirmation-text > p{
+    font-size: 16px;
+}
